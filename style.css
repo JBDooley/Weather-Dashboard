@@ -8,3 +8,16 @@ header {
 h1 {
     font-size: 70px;
 }
+
+aside {
+    height: 100vh;
+    background-color: rgb(212, 225, 245);
+}
+
+#searchBtn {
+    background-color: #3f50b1;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 5px;
+}
