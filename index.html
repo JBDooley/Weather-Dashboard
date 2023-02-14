@@ -15,19 +15,62 @@
         <p id="dateTime"></p>
     </header>
 
-    <aside class="col-3">
-        <div class="d-flex flex-column py-4 align-items-center citySearch">
+    <main class="d-flex">
+        <aside class="d-flex flex-column col-3 py-4 align-items-center citySearch">
             <h2>Search for a City:</h2>
-            <form class="d-flex flex-container">
+            <form class="d-flex flex-column">
                 <input type="text" id="searchInput" placeholder="Search"/>
-                <button type="submit" id="searchBtn">Search</button>
+                <button type="submit" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
+        </aside>    
+        <div class="d-flex flex-column col-9">
+            <div class="today" id="current">
+                <h2 id="cityDate">Today</h2>
+                <p>Temp: <span></span> °F</p>
+                <p>Wind: <span></span> MPH</p>
+                <p>Humidity: <span></span> %</p>
+            </div>
+            <div class="fiveDayForecast">
+                <div class="fiveDayContainer container row justify-content-between">
+                    <h2>5 Day Forecast</h2>
+                    <div class="forcastCard col-2 d-flex flex-column">
+                        <h3>Date</h3>
+                        <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="cloudy" class="icon" />
+                        <div>Temp: <span></span> °F</div>
+                        <div>Wind: <span></span> MPH</div>
+                        <div>Humidity: <span></span> %</div>
+                      </div>
+                      <div class="forcastCard col-2 d-flex flex-column">
+                        <h3>Date</h3>
+                        <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="cloudy" class="icon" />
+                        <div>Temp: <span></span> °F</div>
+                        <div>Wind: <span></span> MPH</div>
+                        <div>Humidity: <span></span> %</div>
+                      </div>
+                      <div class="forcastCard col-2 d-flex flex-column">
+                        <h3>Date</h3>
+                        <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="cloudy" class="icon" />
+                        <div>Temp: <span></span> °F</div>
+                        <div>Wind: <span></span> MPH</div>
+                        <div>Humidity: <span></span> %</div>
+                      </div>
+                      <div class="forcastCard col-2 d-flex flex-column">
+                        <h3>Date</h3>
+                        <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="cloudy" class="icon" />
+                        <div>Temp: <span></span> °F</div>
+                        <div>Wind: <span></span> MPH</div>
+                        <div>Humidity: <span></span> %</div>
+                      </div>
+                      <div class="forcastCard col-2 d-flex flex-column">
+                        <h3>Date</h3>
+                        <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="cloudy" class="icon" />
+                        <div>Temp: <span></span> °F</div>
+                        <div>Wind: <span></span> MPH</div>
+                        <div>Humidity: <span></span> %</div>
+                      </div>
+                </div>
+            </div>
         </div>
-
-    </aside>
-
-    <main class="col-9">
-
     </main>
 
 

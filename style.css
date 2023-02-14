@@ -14,10 +14,26 @@ aside {
     background-color: rgb(212, 225, 245);
 }
 
+input{
+    text-align: center;
+}
+
 #searchBtn {
     background-color: #3f50b1;
     color: whitesmoke;
-    border-radius: 8px;
+    border-radius: 3px;
     padding: 5px;
-    margin-left: 5px;
 }
+
+.today {
+    padding: .5rem;
+    background-color: #051e9b;
+    color: whitesmoke;
+  }
+
+  .forcastCard {
+    background-color: #051e9b;
+    color: whitesmoke;
+    gap: .5rem;
+    padding-bottom: 1.25rem;
+  }
